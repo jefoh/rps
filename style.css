@@ -1,0 +1,35 @@
+body {
+    font-family: Consolas, monaco, monospace;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.game-buttons {
+    height: auto;
+    min-width: 500px;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+button {
+    background-color: black;
+    color: #1faf1f;
+    border: solid 5px #1faf1f;
+    border-radius: 8px;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #1faf1f;
+    color: black;
+    width: 110px;
+    height: 110px;
+}

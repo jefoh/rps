@@ -50,7 +50,7 @@ function playRound(playerSelection, computerSelection) {
             result = "You win! Scissors beats paper.";
             userScore++;
         } else if (computerSelection === "rock") {
-            result = "You lose. Rock smash scissor.";
+            result = "You lose. Rock beats scissors.";
             computerScore++;
         }
     } else {
